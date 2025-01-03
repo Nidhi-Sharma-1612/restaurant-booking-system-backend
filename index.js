@@ -30,7 +30,7 @@ const bookingSchema = new mongoose.Schema({
 const Booking = mongoose.model("Booking", bookingSchema);
 
 const app = express();
-const PORT = 5000;
+const PORT = 80;
 
 // Middleware
 app.use(bodyParser.json());
